@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #f5f7fa, #e4e8f0);
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 100%;
+  max-width: 430px;
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+/* HEADER */
+.header {
+  padding: 18px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #e1306c;
+}
+
+/* FEED */
+.feed {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 18px;
+  transition: transform 0.3s ease;
+}
+
+.post img:hover {
+  transform: scale(1.03);
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.actions button:hover {
+  transform: scale(1.2);
+}
+
+.likes {
+  font-weight: 600;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.caption {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #444;
+}
+
+/* MENU */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+.bottom-nav button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.bottom-nav button:hover {
+  transform: scale(1.2);
+}
